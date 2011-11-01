@@ -1,0 +1,22 @@
+<html>
+<body>
+<form>
+<input type="text" name="typetext" rt:reference="true" />
+<input type="hidden" name="typehidden" rt:reference="true" />
+<input type="checkbox" name="typecheckbox" value="hoge1" rt:reference="true" />
+<input type="checkbox" name="typecheckbox" value="hoge2" rt:reference="true" />
+<input type="checkbox" name="typecheckbox" value="hoge3" rt:reference="true" />
+<input type="radio" name="typeradio" value="gako" rt:reference="true" />
+<input type="radio" name="typeradio" value="hoge" rt:reference="true" />
+
+<input type="checkbox" name="abc" value="hoge5" rt:param="2" rt:value="2" />
+<input type="checkbox" name="abc" value="hoge6" rt:param="2" rt:value="1" />
+
+<input type="radio" name="typeradio" value="gako" rt:param="2" rt:value="2" />
+<input type="radio" name="typeradio" value="hoge" />
+
+<input type="checkbox" name="typecheckbox" value="{$val1}" rt:reference="true" />
+<input type="radio" name="typeradio" value="{$val2}" rt:reference="true" />
+</form>
+</body>
+</html>

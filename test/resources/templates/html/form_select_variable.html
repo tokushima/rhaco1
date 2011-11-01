@@ -1,0 +1,23 @@
+<html>
+<body>
+<form>
+<select name="{$var1}" rt:reference="true">
+<option value="hoge">1</option>
+<option value="moge">2</option>
+<option value="doge">3</option>
+</select>
+
+<select name="abc">
+<option value="hoge">1</option>
+<option value="moge">2</option>
+<option value="doge" rt:param="{$varse}" rt:value="2">3</option>
+</select>
+
+<select name="def">
+<option value="hoge">1</option>
+<option value="moge">2</option>
+<option value="doge" rt:param="{$truese}">3</option>
+</select>
+</form>
+</body>
+</html>

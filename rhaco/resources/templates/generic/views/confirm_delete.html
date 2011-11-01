@@ -1,0 +1,24 @@
+<rt:extends href="./main.html" />
+
+<rt:block name="content">
+	<fieldset>
+		<table width="100%">
+		<rt:loop param="{$object.models('views','form_display')}" var="column">
+		<rt:ifnot param="{$column.isSerial()}">
+		<tr>
+			<th>{$column.label()}</th>
+			<td>
+				{$f.text2html($object.value($column))}
+			</td>
+		</tr>
+		</rt:ifnot>
+		</rt:loop>
+		</table>
+		<form method="post">
+			<input type="hidden" name="_rsid" rt:reference="true" />
+			<input type="submit" name="_complete" value="{$generic_button}" />
+		</form>
+	</fieldset>
+	<br />
+	<rt:invalid />
+</rt:block>

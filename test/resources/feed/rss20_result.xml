@@ -1,0 +1,280 @@
+<rss version="2.0"><channel><title>rhacoとか</title><link>http://d.hatena.ne.jp/rhaco/</link><description>rhacoとか</description><pubDate>2007-08-26T20:33:13+09:00</pubDate><item><title>ViB</title><link>http://d.hatena.ne.jp/rhaco/20070826/1188127993</link><description><![CDATA[
+
+		<div class="section">
+			<p>rssの本文中にformをくっつけて、そこからコメントを投稿！</p>
+			<p>という話を<a href="http://d.hatena.ne.jp/Voluntas/">id:Voluntas</a>の兄貴がしていたので作ってみた。</p>
+			<p>が！ livedoor ReaderとかGoogle Readerとかformなんて消しちまいますぜ！</p>
+			<p>いやー、残念。　面白いアイディアだとは思ったんだけどねぇ。</p>
+			<p><a href="http://rhaco.sakura.ne.jp/vib/" target="_blank">http://rhaco.sakura.ne.jp/vib/</a></p>
+		</div>
+
+]]></description><pubDate>Sun, 26 Aug 2007 20:33:13 +0900</pubDate></item><item><title>Django勉強会 Disk4</title><link>http://d.hatena.ne.jp/rhaco/20070826/1188127994</link><description><![CDATA[
+
+		<div class="section">
+			<p>いってきた。</p>
+			<p>11時スタート。</p>
+			<p>懇親会終了23時。</p>
+			<p>12時間てw</p>
+			<p>楽しかった。</p>
+			<br>
+
+			<br>
+
+			<br>
+
+			<br>
+
+			<br>
+
+			<br>
+
+			<p>デスマは怖かぁ</p>
+		</div>
+
+]]></description><pubDate>Sun, 26 Aug 2007 20:33:14 +0900</pubDate></item><item><title>デザイナ募集とかいってみたけど</title><link>http://d.hatena.ne.jp/rhaco/20070810/1186708660</link><description><![CDATA[
+
+		<div class="section">
+			<p>よくよく考えたら、募集つったって常駐してもらわなきゃ困るわけじゃない。</p>
+			<p>良く知らない世界だから、デザイナってまとめて言っちゃったのも実際になんちゃらデザイナの人には「で、なにを？」だと思った。</p>
+			<br>
+
+			<p>これは人に「仕事何してるの？」って聞かれた時に「システムエンジニア」って答える事が多いんだけど（phpやってるとか、java</p>
+			<p>やってるじゃ通じないから）、その後に「じゃあパソコン詳しいんだ」っていわれて「いやいやいや」と思うのと同じだなと。</p>
+			<br>
+
+			<p>大概の場合、「じゃあパソコン詳しいんだ」＝パソコンが関わる事なら何でも知ってるとなっている。</p>
+			<p>実際はエクセルなんて分からないし、ワードなんか触ってもないし、DTMの事聞かれても？？？だし、写真編集の事聞かれてもiPhotoとしか言えない。</p>
+			<p>はては、パソコン＝秋葉原になったりもしてメイド喫茶の事きかれても分かんないし、コスプレの事聞かれても分からない。</p>
+			<br>
+
+			<p>確かに、そんなものがある事は知っているし、どういう物かもなんとなくは知っている。</p>
+			<p>けど、「教えて」「手伝って」と言われても困る。</p>
+			<br>
+
+			<p>同じようにデザイナの人募集って言われたところで、何を募集しているのか分からないよなと。</p>
+			<br>
+
+			<p>なので、ちょっと整理。</p>
+			<br>
+
+			<br>
+
+			<p>rhaco.orgで募集しているのは以下をやってくれる人です。</p>
+			<p>ただ、募集といっても常駐してくださいとかってわけでは無くって「こんなのどう？」とか「こんなの作ってみた」とか軽いノリで求めています。</p>
+			<p>仕事としてやってるわけではないので、人生かけられても困りますw</p>
+			<br>
+
+<pre>
+ロゴデザインをしてくれる人（絵を描いてくれる人）
+</pre>
+<pre>
+バナーデザインをしてくれる人（絵を描いてくれる人）
+</pre>
+<pre>
+DB管理画面とかsetup画面とかのインタフェースデザインをしてくれる人
+(JavaScript & CSS & HTMLで制作しれくれる人）
+</pre>
+			<p>※もちろん、全部ができる人しかダメってわけじゃないです。</p>
+			<br>
+
+			<p>とにもかくにも、rhacoに興味のある人は <a href="http://twitter.com/rhaco" target="_blank">http://twitter.com/rhaco</a> とか <a href="http://www.lingr.com/room/rhaco" target="_blank">http://www.lingr.com/room/rhaco</a> とかで声かけてみてください。</p>
+			<br>
+
+			<p>追記：</p>
+			<p><a href="http://ingoodlight.co.jp/netshop/" target="_blank">http://ingoodlight.co.jp/netshop/</a></p>
+			<p>こういうセンスが好き。　Tシャツの柄とかステキ。</p>
+		</div>
+
+]]></description><pubDate>Fri, 10 Aug 2007 10:17:40 +0900</pubDate></item><item><title>2007-08-09</title><link>http://d.hatena.ne.jp/rhaco/20070809</link><description><![CDATA[
+
+		<div class="section">
+<pre>
+serialize -&#62; serialization
+ <a href="http://jp2.php.net/manual/ja/function.serialize.php" target="_blank">http://jp2.php.net/manual/ja/function.serialize.php</a>
+</pre>
+<pre>
+unserialize -&#62; deserialization
+ <a href="http://jp2.php.net/manual/ja/function.unserialize.php" target="_blank">http://jp2.php.net/manual/ja/function.unserialize.php</a>
+</pre>
+			<p>un?</p>
+		</div>
+
+]]></description><pubDate>Thu, 09 Aug 2007 00:00:00 +0900</pubDate></item><item><title>rhaco-&gt;Django</title><link>http://d.hatena.ne.jp/rhaco/20070807/1186498349</link><description><![CDATA[
+
+		<div class="section">
+			<p>スパム親分の野望通りrhacoの話はDjango勉強会の話として記憶されたw</p>
+			<p><a href="http://d.hatena.ne.jp/shrkw/20070804" target="_blank">http://d.hatena.ne.jp/shrkw/20070804</a></p>
+<pre>
+ rhaco
+  Django勉強会が8/25にあるらしいので、行けたら行きたい
+</pre>
+		</div>
+
+]]></description><pubDate>Tue, 07 Aug 2007 23:52:29 +0900</pubDate></item><item><title>LL魂の記事でITProにのった</title><link>http://d.hatena.ne.jp/rhaco/20070807/1186492081</link><description><![CDATA[
+
+		<div class="section">
+			<p>ITProの記事からのアクセスがそこそこあった。</p>
+			<p>あぁITProって見てる人多いんだなぁ。　と。</p>
+			<p><a href="http://itpro.nikkeibp.co.jp/article/NEWS/20070806/279163/?P=5&ST=oss" target="_blank">http://itpro.nikkeibp.co.jp/article/NEWS/20070806/279163/?P=5&#38;ST=oss</a></p>
+			<p>いらっしゃい。</p>
+			<br>
+
+<pre>
+LL：まだまだ言語，フレームワーク，セキュリティ
+...
+...
+
+露木誠は国産PHPフレームワーク「rhaco」
+</pre>
+			<p>露木誠氏の発表は歯切れが悪かったけど時間切れではありません。</p>
+			<p><a href="http://www.everes.net/2007/aug/06/ll-spirit-rhaco-slide/" target="_blank">http://www.everes.net/2007/aug/06/ll-spirit-rhaco-slide/</a></p>
+		</div>
+
+]]></description><pubDate>Tue, 07 Aug 2007 22:08:01 +0900</pubDate></item><item><title>Variable::mixin</title><link>http://d.hatena.ne.jp/rhaco/20070806/1186376887</link><description><![CDATA[
+
+		<div class="section">
+			<p>先日のLL魂でLTでの発表もあったrhacoのmixinですが、次のリリースで仕様変更を行います。</p>
+			<p>現在のもの(1.2.1)は前方優先でしたので、メソッドのオーバーライドができませんでした。</p>
+			<p>さらに変数の扱いも、いまいちでしたので参照を行うように修正しました。</p>
+			<p>以下、修正Diffです。　これから使ってみようという方はアップデートお願いします。</p>
+			<br>
+
+<pre>
+Index: Variable.php
+===================================================================
+--- Variable.php	(.../tags/1_2_1/lang/Variable.php)	(revision 1602)
++++ Variable.php	(.../trunk/lang/Variable.php)	(revision 1602)
+@@ -367,17 +367,13 @@
+ 	 &#42; @return object
+ 	 &#42;/
+ 	function mixin(){
+-		$objects	= func_get_args();
+-		$methods	= array();
+-		$funcs		= array();
+-		$vars		= array();
+-		$classses	= array();
+-		$first		= &#34;&#34;;
+-		$name		= &#34;MIXINCLASS_&#34;;
+-		$obj		= null;
+-
+-		if(empty($objects) || !is_object($objects&#91;0])) return false;
++		$objects = func_get_args();
++		$classses = $methods = $funcs = $vars = $classvar = array();
++		$obj = null;
++		$name = &#34;&#34;;
+ 
++		if(is_string($objects&#91;0])) $name = array_shift($objects);
++		if(empty($objects) || !is_object($objects&#91;0])) return false;		
+ 		krsort($objects);
+ 		foreach($objects as $key =&#62; $object){
+ 			if(is_object($object)){
+@@ -382,15 +378,18 @@
+ 		foreach($objects as $key =&#62; $object){
+ 			if(is_object($object)){
+ 				if(!is_object($object))	return false;
+-				
+-				$class				= get_class($object);
+-				$classses&#91;$class]	= $class;
+-				$first				= $class;
+-				$name				.= &#34;__&#34;.$class;
+-			
+-				foreach(get_class_methods($object) as $method) $methods&#91;$method] = $class;
+-				foreach(get_object_vars($object) as $key =&#62; $value) $vars&#91;$key]	= $class;
+-			}else{
++
++				$classname = get_class($object);
++				$classses&#91;] = $classname;
++
++				foreach(get_class_methods($object) as $method){
++					if(!isset($methods&#91;$method])) $methods&#91;$method] = $classname;
++				}
++				foreach(get_object_vars($object) as $key =&#62; $value){
++					$vars&#91;$key]	= $classname;
++					$classvar&#91;$key]&#91;] = $classname;
++				}
++			}else if(is_array($object)){
+ 				$object = Variable::arrays($object,0,3,true);
+ 				if(!empty($object&#91;0])){
+ 					if(empty($object&#91;2])) $object&#91;2] = $object&#91;1];
+@@ -399,10 +398,15 @@
+ 				unset($objects&#91;$key]);
+ 			}
+ 		}
++		
++		krsort($classses);
++		if(empty($name)) $name = implode(&#34;__&#34;,$classses);
++
+ 		if(!class_exists($name)){
+ 			if(isset($methods&#91;&#34;istype&#34;])) unset($methods&#91;&#34;istype&#34;]);
+-			if(isset($vars&#91;&#34;CLASS&#34;])) unset($vars&#91;&#34;CLASS&#34;]);	
+-	
++			if(isset($vars&#91;&#34;CLASS&#34;])) unset($vars&#91;&#34;CLASS&#34;]);
++			$first = Variable::implode($classses,&#34;&#34;,0,1);
++
+ 			$value = &#34;class &#34;.$name.&#34; extends &#34;.$first.&#34;{&#92;n&#34;;
+ 			$value .= &#34;var &#92;$CLASS = array();&#92;n&#34;;
+ 			foreach($vars as $var =&#62; $class) if($first != $class) $value .= &#34;var &#92;$&#34;.$var.&#34;;&#92;n&#34;;
+@@ -409,16 +413,21 @@
+ 
+ 			$value .= &#34;function &#34;.$name.&#34;(){&#92;n&#34;;
+ 			foreach($classses as $class) if($first != $class) $value .= &#34;&#92;$this-&#62;CLASS&#91;&#39;&#34;.$class.&#34;&#39;] = new &#34;.$class.&#34;();&#92;n&#34;;
+-			foreach($vars as $key =&#62; $class) if($first != $class) $value .= &#34;&#92;$this-&#62;&#34;.$key.&#34; = &#38;&#92;$this-&#62;CLASS&#91;&#39;&#34;.$class.&#34;&#39;]-&#62;&#34;.$key.&#34;;&#92;n&#34;;
++			foreach($vars as $key =&#62; $class){
++				if($first != $class) $value .= &#34;&#92;$this-&#62;&#34;.$key.&#34; = &#38;&#92;$this-&#62;CLASS&#91;&#39;&#34;.$class.&#34;&#39;]-&#62;&#34;.$key.&#34;;&#92;n&#34;;
++				foreach($classvar&#91;$key] as $classname){
++					if($classname != $class) $value .= &#34;&#92;$this-&#62;CLASS&#91;&#39;&#34;.$classname.&#34;&#39;]-&#62;&#34;.$key.&#34;=&#38;&#92;$this-&#62;&#34;.$key.&#34;;&#92;n&#34;;
++				}
++			}
+ 			$value .= &#34;}&#92;n&#34;;
+-			
++
+ 			foreach($methods as $method =&#62; $class){
+ 				if($first != $class){
+-					$value .= &#34;function &#34;.$method.&#34;(){&#92;n&#34;;
+-					$value .= &#34;&#92;$args = func_get_args();&#92;n&#34;;
+-					$value .= &#34;&#92;$obj = &#38;&#92;$this-&#62;CLASS&#91;&#39;&#34;.$class.&#34;&#39;];&#92;n&#34;;
+-					$value .= &#34;return &#92;$obj-&#62;&#34;.$method.&#34;(&#92;$args);&#92;n&#34;;
+-					$value .= &#34;}&#92;n&#34;;
++					$value .= &#34;function &#34;.$method.&#34;(){&#92;n&#34;.
++									&#34;&#92;$args = func_get_args();&#92;n&#34;.
++									&#34;&#92;$obj = &#38;&#92;$this-&#62;CLASS&#91;&#39;&#34;.$class.&#34;&#39;];&#92;n&#34;.
++									&#34;return call_user_func_array(array(&#92;$obj,&#92;&#34;&#34;.$method.&#34;&#92;&#34;),&#92;$args);&#92;n&#34;.
++								&#34;}&#92;n&#34;;
+ 				}
+ 			}
+ 			foreach($funcs as $funcname =&#62; $func) $value .= &#34;function &#34;.$funcname.&#34;(&#34;.$func&#91;0].&#34;){&#92;n&#34;.$func&#91;1].&#34;&#92;n}&#92;n&#34;;
+@@ -423,12 +432,11 @@
+ 			}
+ 			foreach($funcs as $funcname =&#62; $func) $value .= &#34;function &#34;.$funcname.&#34;(&#34;.$func&#91;0].&#34;){&#92;n&#34;.$func&#91;1].&#34;&#92;n}&#92;n&#34;;
+ 
+-			$value .= &#34;function istype(&#92;$class){&#92;n&#34;;
+-			$value .= &#34;if(Variable::istype(&#92;$class,&#92;$this))	return true;&#92;n&#34;;
+-			$value .= &#34;foreach(&#92;$this-&#62;CLASS as &#92;$obj) if(Variable::istype(&#92;$class,&#92;$obj)) return true;&#92;n&#34;;
+-			$value .= &#34;return false;&#92;n&#34;;
+-			$value .= &#34;}&#92;n&#34;;
+-
++			$value .= &#34;function istype(&#92;$class){&#92;n&#34;.
++							&#34;if(Variable::istype(&#92;$class,&#92;$this))	return true;&#92;n&#34;.
++							&#34;foreach(&#92;$this-&#62;CLASS as &#92;$obj) if(Variable::istype(&#92;$class,&#92;$obj)) return true;&#92;n&#34;.
++							&#34;return false;&#92;n&#34;.
++						&#34;}&#92;n&#34;;
+ 			$value .= &#34;}&#92;n&#34;;
+ 			eval($value);
+ 		}
+@@ -434,9 +442,7 @@
+ 		}
+ 		if(class_exists($name)){
+ 			$obj = new $name();
+-			foreach($objects as $object){
+-				$obj = Variable::copyProperties($object,$obj,true);
+-			}
++			foreach($objects as $object) $obj = Variable::copyProperties($object,$obj,true);
+ 		}
+ 		return $obj;
+ 	}
+
+</pre>
+
+		</div>
+
+]]></description><pubDate>Mon, 06 Aug 2007 14:08:07 +0900</pubDate></item></channel></rss>

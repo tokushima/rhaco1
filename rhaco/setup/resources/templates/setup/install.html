@@ -1,0 +1,9 @@
+<rt:extends href="./main.html" />
+<rt:block name="content">
+<form method="post" rt:reference="true" class="repository">
+	<div id="arbo_xml" style="display:none;">{$arbo_xml}</div>
+	<input type="text" size="70" name="arbo_package" />
+	<input type="submit" value="install library" />
+</form>
+{$message}
+</rt:block>

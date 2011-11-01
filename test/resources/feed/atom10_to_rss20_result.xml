@@ -1,0 +1,139 @@
+<rss version="2.0"><channel><title>スパムとか</title><link>http://www.everes.net/</link><item><title>DJango勉強会 Disc4 の動画</title><link>http://www.everes.net/2007/aug/28/django-disc4-movie/</link><description>&lt;p&gt;kznさんによって、DJango勉強会Disc4の&lt;a href="http://stage6.divx.com/user/kzn/blog/25751/"&gt;プレゼン動画が公開&lt;/a&gt;されました。&lt;/p&gt;
+
+&lt;p&gt;&lt;small&gt;（openingは変な男が揺れているだけなので見ても仕方ありませんYO :) ）&lt;br /&gt;
+その分本編を見て下さい。つか、俺揺れ過ぎ。&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;Stage6なので、divxプラグインが必要ですが、その分高画質ですので是非プラグイン入れて下さい。&lt;br /&gt;
+長丁場の勉強会を高画質でエンコしてのアップ、kznさんありがとうございます！&lt;br /&gt;
+&lt;small&gt;Stage6は画質は文句無いのですが、レスポンスや操作感に難があるので大変だったはず…&lt;/small&gt;&lt;/p&gt;&lt;br /&gt;
+
+&lt;p&gt;話変わって、&lt;a href="http://blog.monospace.jp/2007/08/28/excellent_blog_designs/"&gt;pateoさんのブログ&lt;/a&gt;経由で「&lt;a href="http://www.smashingmagazine.com/2007/08/28/45-excellent-blog-designs/"&gt;45の素敵なブログデザイン&lt;/a&gt;」を見た。WordPressとかと並んで、というか一番上の方がDjango製のブログでウケタ。&lt;br /&gt;
+ブログエンジンの振る舞いを自分好みにしたいという欲求のある人は、下手にブログエンジンをいじるよりはDjangoで作ってしまえるということなのかな？&lt;/p&gt;
+&lt;p&gt;Djangoを使ってなにかをしてみたい人は、ブログを作るというのはアリアリだと思う。一応関連モデルとCRUDが試せるし、なにより作ったものを使えるから。&lt;br /&gt;
+アーンド、ブログツールってスレッド掲示板を作るよりも簡単だから、プログラマじゃなくっても作れるに違いない！&lt;/p&gt;
+
+&lt;p&gt;つーことで、みんなまずはブログでも作ったらいいYO!&lt;/p&gt;</description><pubDate>Tue, 28 Aug 2007 18:56:35 +0900</pubDate></item><item><title>Django勉強会 Disc4 完了</title><link>http://www.everes.net/2007/aug/26/django-etude-disc-4/</link><description>&lt;p&gt;しばらく時間が空いてしまった感のあるDjango勉強会ですが、LL魂での告知通り8/25に開催をしました。&lt;/p&gt;&lt;br /&gt;
+
+&lt;p&gt;- 閑話休題 -&lt;br /&gt;
+エントリを書くのが遅れたのは、ITサーフィン（立てない）の会、というか&lt;a href="http://www.lingr.com/room/java-ja"&gt;java-ja（じゃゔぁじゃ）&lt;/a&gt;の&lt;a href="http://yoshiori.org/"&gt;友達w&lt;/a&gt;（髪の赤い人）の関連のホームパーティに行っていて、丸一日休んでいたからです。&lt;br /&gt;
+つか、マジあの料理のうまさはあり得ない（本職、元本職と知って納得）。&lt;br /&gt;
+今度は嫁子供を連れて突撃します。また、誘ってください。&lt;br /&gt;
+
+&lt;small&gt;でも、夏の昼間にサーフィンするのはやめた方が良いです。オイルじゃなくって日焼け止めとラッシュガードは必須です :)&lt;/small&gt;&lt;br /&gt;
+残念ながらほぼ凪だったのでまたも立てませんでした。&lt;/p&gt;&lt;br /&gt;
+&lt;p&gt;話戻る。&lt;br /&gt;
+Django勉強会は、非常に盛況でした。申し込み受付も、朝6時からという変な開始時間だったにもかかわらず、3時間ほどで初期定員の20名がうまり、無理矢理キャパを増やしても、増やした分が数分で埋まってしまうという人気？ぶりでした。結局30名オーバーで、私のキャパを超えました :'(&lt;br /&gt;
+人気の原因はサイボウズ・ラボを会場にお借りしたことなのか、密かに出社を望んでいたamachangなのか、はたまたなんなのかはわかりませんが、いつものメンツ以外が多く参加されたことは成功だったと言えるかもしれません。&lt;br /&gt;&lt;br /&gt;
+いろいろgdgdでしたが、gdgdなりにお昼にメインの懇親会の時間を持ってきたことについては意外と受けが良かったようでほっと一安心です。&lt;br /&gt;
+
+&lt;small&gt;お昼に30人の予約を、ルームチャージも事前料理選択も無くこころよく引き受けていただいたデニーズ赤坂店に感謝感謝。デニーズラブなので、自宅近くやビル立て直しでなくなってしまったデニーズ鵠沼海岸店等よく利用させていただいていますよー。&lt;/small&gt;&lt;/p&gt;&lt;br /&gt;
+&lt;p&gt;内容については、名古屋から来た&lt;a href="http://d.hatena.ne.jp/aodag/"&gt;Python関連の勉強会にはいつもいる男&lt;/a&gt;が、&lt;a href="http://www.lingr.com/room/django-ja"&gt;django-jaのlingr&lt;/a&gt;に&lt;a href="http://www.lingr.com/room/django-ja/archives/2007/08/24#msg-14020725"&gt;メモ&lt;/a&gt;や&lt;a href="http://www.lingr.com/room/django-ja/archives/2007/08/25"&gt;メモ&lt;/a&gt;を実況してくれましたのでそちらを主に参照してください。&lt;/p&gt;&lt;br /&gt;
+
+&lt;p&gt;また、今回は参加者のご協力により、DVで録画がされています。近いうちに書くセッションの動画がStage6なりにあがることになると思います。&lt;/p&gt;&lt;br /&gt;
+&lt;p&gt;Django勉強会参加者の感想等は、&lt;a href="http://www.djangoproject.jp/djaboo/tag/django勉強会/"&gt;Djangoと日本の仲間達のブックマークフィード&lt;/a&gt;からどうぞ。&lt;/p&gt;&lt;br /&gt;
+&lt;p&gt;運営側の収穫としては、名古屋から参加していただいた&lt;a href="http://blog.monospace.jp/2007/08/26/django_disc4/"&gt;pateo&lt;/a&gt;さんがdjangoproject.jpのサイトデザインをしても良いと言ってくれたこと！&lt;/p&gt;
+
+&lt;p&gt;pateoさんは、名古屋Python Workshopでもデザイナ視点から見たDjangoについてのプレゼンを行ったこともある人。密かにデザイナさん向けDjango勉強会をやりたい病再燃！&lt;/p&gt;&lt;br /&gt;
+&lt;p&gt;ご協力いただいたサイボウズ・ラボ、西尾さん、みんなの気分を盛り上げてくれたamachang（しかも自由参加懇親会にも参加してもらっちゃって、というか仕切ってもらってしまった。みんな感激！）、参加者のみなさんに感謝！&lt;br /&gt;
+またよろしく！&lt;/p&gt;</description><pubDate>Mon, 27 Aug 2007 08:16:01 +0900</pubDate></item><item><title>Python昼食会</title><link>http://www.everes.net/2007/aug/17/python-lunch/</link><description>&lt;p&gt;&lt;a href="http://ymasuda.jp/index.html"&gt;ニッの人&lt;/a&gt;が毎週東京に来ているという事実と、赤坂辺りのランチオフが羨ましかったので、Django,Python人なら全員が激しく利用しているであろうサイト&lt;a href="http://gu3.jp/"&gt;グミ&lt;/a&gt;で「Python昼食会やりたい」と呟いてみました。&lt;/p&gt;&lt;br /&gt;
+
+&lt;p&gt;すぐさま&lt;a href="http://www.unoh.net/"&gt;ウノウ&lt;/a&gt;のPython人が反応をしてくれたので、調子に乗って現在Python総本山といってもおかしくない会社にいる&lt;a href="http://d.hatena.ne.jp/Voluntas"&gt;Voluntas&lt;/a&gt;に押し付けてみたところ、なんと今日、Python昼食会が催されました。&lt;/p&gt;&lt;br /&gt;
+&lt;p&gt;実に13人が、牛込神楽坂に集結しインド料理ビュッフェ？を食しつつとりとめのない話をするために、集まりました。&lt;/p&gt;
+
+&lt;p&gt;終了後、twitterで終わったと告げたところ、&lt;strong&gt;羨ましがった人がいたので成功&lt;/strong&gt;です :)&lt;/p&gt;
+&lt;p&gt;楽しかった。&lt;/p&gt;&lt;br /&gt;
+&lt;p&gt;次は、来週の火曜日に半蔵門ランチオフ。今度は知らない人達と。新しい出会いだな。&lt;/p&gt;&lt;br /&gt;
+
+&lt;p&gt;# それから吉田さんの代わりに&lt;a href="http://d.hatena.ne.jp/Voluntas"&gt;Voluntas&lt;/a&gt;さんがいてがっかりした。&lt;/p&gt;</description><pubDate>Sat, 18 Aug 2007 06:08:26 +0900</pubDate></item><item><title>ランチオフを行うためのサービス</title><link>http://www.everes.net/2007/aug/16/make-up-lunch-off-service/</link><description>&lt;p&gt;&lt;strong&gt;特定の地域でランチオフ&lt;/strong&gt;を行うためのサービスがあった。しかもDjangoで作られているらしい。&lt;/p&gt;&lt;br /&gt;
+
+
+&lt;p&gt;&lt;a href="http://www.noonhat.com/lunch/"&gt;&lt;img src="http://art5.photozou.jp/pub/478/1478/photo/4357223.gif" alt="Noonhat" width="200" height="66" style="border:0" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.noonhat.com/lunch/"&gt;Noonhat&lt;/a&gt;っていう北米向けのサービス。&lt;/p&gt;&lt;br /&gt;
+
+
+&lt;p&gt;仕組みは非常に簡単。表示されている地図をぐりぐり移動して、ランチをとる地域を表示する。その後、左側のスライダで範囲を調整して、自分のメールアドレスと日付を入れて登録。&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://photozou.jp/photo/show/1478/4357224"&gt;&lt;img src="http://art5.photozou.jp/pub/478/1478/photo/4357224.png" alt="ランチオフ希望登録画面" width="450" height="263" style="border:0" /&gt;&lt;/a&gt;&lt;br /&gt;&lt;a href="http://photozou.jp/photo/show/1478/4357224"&gt;ランチオフ希望登録画面&lt;/a&gt; posted by &lt;a href="http://photozou.jp/mypage/top/1478"&gt;(C)everes&lt;/a&gt;&lt;/p&gt;&lt;br /&gt;
+
+&lt;p&gt;あとは、設定した日付の早朝にメールが来るらしい。恐らく同日・同地域に設定した人についての情報が送られてくるんだと思う(まだその日にならないし、きっと誰も半蔵門辺りで登録していないorz)。&lt;/p&gt;
+&lt;p&gt;また、今のところ日本でのランチオフに使うにはタイムゾーンの壁があって(ちゃんと北米用って書いてある)、当日の夕方くらいにメールが来るんじゃないかと予想している。&lt;/p&gt;&lt;br /&gt;
+&lt;p&gt;仕組みは簡単だから、&lt;strong&gt;誰かがものすごい勢いで作る&lt;/strong&gt;んじゃないかと振ってみる。&lt;br /&gt;
+年齢層とかカテゴリとかがあるとよいかなぁ。&lt;br /&gt;
+Noonhatは新しい出会いのためだから地域と日付のみの指定しか無いんだよ。&lt;/p&gt;
+
+
+</description><pubDate>Thu, 16 Aug 2007 17:38:30 +0900</pubDate></item><item><title>dreamhostでphp.iniをいじりたい場合</title><link>http://www.everes.net/2007/aug/14/php-on-dreamhost/</link><description>&lt;p&gt;&lt;strong&gt;dreamhostでphp.iniをいじりたい場合&lt;/strong&gt;&lt;/p&gt;&lt;br /&gt;
+
+
+&lt;p&gt;コンパネからfastcgiを使うにチェックを入れてfully hostするのは通常通り&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;セキュリティホールが勝手に埋まらないから、定期的印php5.cgiをコピーすること！&lt;/strong&gt;&lt;/p&gt;&lt;br /&gt;
+&lt;p&gt;
+&lt;ol&gt;
+  &lt;li&gt;$USER/$HOSTにcgi-binディレクトリを作る&lt;/li&gt;
+  &lt;li&gt;/dh/cgi-system/php5.cgi をcgi-bin/php.cgiとしてコピー&lt;/li&gt;
+  &lt;li&gt;/etc/php5/cgi/php.ini を cgi-bin/php.ini としてコピー&lt;/li&gt;
+  &lt;li&gt;$USER/$HOSTに &lt;i&gt;.htaccess&lt;/i&gt; を作成し、以下のように記述する。&lt;br /&gt;
+
+&lt;pre&gt;
+Options +ExecCGI
+AddHandler php-cgi .php
+Action php-cgi /cgi-bin/php.cgi
+&lt;/pre&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/p&gt;</description><pubDate>Tue, 14 Aug 2007 18:50:44 +0900</pubDate></item><item><title>半蔵門のIT技術者集え！</title><link>http://www.everes.net/2007/aug/13/tokyo-it-local/</link><description>&lt;p&gt;なんだか最近&lt;a href="http://akasaka.pm.org/"&gt;赤坂&lt;/a&gt;がずるい、サイボウズ・ラボ ライブドア SixApartの赤坂昼食会とか赤坂界隈のRubiestの&lt;a href="http://akasakarb.org/"&gt;akasaka.rb&lt;/a&gt;の&lt;a href="http://idm.s9.xrea.com/ratio/2007/08/11/000653.html"&gt;集い&lt;/a&gt;とか、赤坂界隈がずるいずるい。&lt;/p&gt;
+
+&lt;p&gt;半蔵門にITの会社はどれくらいあるのかしらんけど、半蔵門でも集おうよ！&lt;br /&gt;
+はんぞうもんがー！&lt;/p&gt;&lt;br /&gt;
+&lt;p&gt;ついカッっとなってpython.charmr.orgとかとった訳ですが、それとは全然関係ないんだけど、Python昼食会とかも無駄にやってみたいなぁ。&lt;br /&gt;
+ウノウのPythonistaからは賛同いただいてる訳ですが…。python.yamanoteとか！？&lt;/p&gt;
+&lt;p&gt;Python自体をちゃんとやってみようかと思うお盆の頃&lt;/p&gt;</description><pubDate>Mon, 13 Aug 2007 17:57:10 +0900</pubDate></item><item><title>じゃゔぁじゃの第三回チキチキ</title><link>http://www.everes.net/2007/aug/11/java-ja-tikitiki-3-wicket/</link><description>&lt;p&gt;java-ja（じゃゔぁじゃ）の第一回チキチキ そろそろ Wicket について一言いっとくかに行ってきた。&lt;/p&gt;
+
+&lt;p&gt;第二回チキチキの写真を見て、スーツコスプレイヤーがいないなぁと思っていたので、現場の若いのと工員コスプレしていったわけです。が、誰も突っ込まずorz。暑いだけだった。&lt;/p&gt;&lt;br /&gt;
+&lt;p&gt;&lt;strong&gt;wicketいいよっ！&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;なんでもJavaで書く。あそこまでやれば納得せざるを得ない。個人的にはHTMLの要素をコンポーネントとして扱うのはダサイとおもってるんだけど、流石Java。HTMLの要素を準備するのにPanel(Pane?)ってなんだよw&lt;br /&gt;
+すげーよ、あれは。&lt;/p&gt;&lt;br /&gt;
+
+&lt;p&gt;会場の&lt;a href="http://www.atl-systems.co.jp/atl/index.jsp"&gt;株式会社エーティーエルシステムズ&lt;/a&gt;さんも高層ビルのでっかい窓から都心のビルが見えて雰囲気良し。なぜかでっかいスピーカーまであって（2000万って言ってたっけ？）、いいぞいいぞ。Pythonの会でも頼み込めば使わせてもらえそう。&lt;/p&gt;&lt;br /&gt;
+&lt;p&gt;&lt;a href="http://d.hatena.ne.jp/yone098/"&gt;id:yone098&lt;/a&gt;さんや&lt;a href="http://nekop.programmers.jp/diary/"&gt;nekop&lt;/a&gt;さんの突っ込みのおかげで理解度の高い&lt;del&gt;勉強会&lt;/del&gt;ミーティングになった気がします。つか、wicketいいよ。&lt;a href="http://onk.blog.drecom.jp/"&gt;onk&lt;/a&gt;さんのプレゼンにだまされているのでなければ、wicketはいい。極力Javaを使わない方針だけど、Javaを使わざるを得ないときは使うかも。&lt;a href="http://www.venten.net/"&gt;venten&lt;/a&gt;、学んでおくように。&lt;/p&gt;&lt;br /&gt;
+
+&lt;p&gt;途中、休憩時間に喫煙所に行ったところ&lt;a href="http://mesolabs.com/"&gt;meso&lt;/a&gt;さんに「ブログ見てます、magnoliaのブックマーク見てます」と言われて異常に照れるw。直後、&lt;a href="http://yoshiori.org"&gt;yoshiori&lt;/a&gt;も同様のことを言われて照れていた。つか、「Pythonちょー流行ってきてますよ！」って言われて喜んでたのに、Python使ってる人アンケートで手を挙げたのは俺と&lt;a href="http://d.hatena.ne.jp/Isoparametric/"&gt;&lt;del&gt;イソッパ&lt;/del&gt;Isoparametric&lt;/a&gt;とmesoさん(とその連れの人)だけであったのは秘密にしておこう。&lt;/p&gt;&lt;br /&gt;
+
+&lt;p&gt;そうそう、珍しくじゃんけんで勝ち抜いてJavaRingを頂いたよっ！わんさといるJavaらーに勝ち抜いて頂いたJavaRingはこれだっ&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://photozou.jp/photo/show/1478/4286745"&gt;&lt;img src="http://art7.photozou.jp/pub/478/1478/photo/4286745.png" alt="JavaRing" width="316" height="228" style="border:0" /&gt;&lt;/a&gt;&lt;br /&gt;&lt;a href="http://photozou.jp/photo/show/1478/4286745"&gt;JavaRing&lt;/a&gt; posted by &lt;a href="http://photozou.jp/mypage/top/1478"&gt;(C)everes&lt;/a&gt;&lt;/p&gt;&lt;br /&gt;
+
+&lt;p&gt;以下、テンプレ&lt;/p&gt;
+&lt;p&gt;いやー、それにしても&lt;a href="http://www.abby.co.jp/"&gt;オープンソースソフトウェアを利用したシステム開発の株式会社Abby&lt;/a&gt;は極めてやばいくらい敷居が高い。&lt;/p&gt;
+&lt;p&gt;レベルの高さに圧倒された。特に&lt;a href="http://d.hatena.ne.jp/yone098/"&gt;id:yone098&lt;/a&gt;さんはレベルが違いすぎた。&lt;/p&gt;
+
+&lt;p&gt;想像を絶するレベルだ。これほどとは思っていなかった。&lt;/p&gt;
+&lt;p&gt;まずこれだけは書いておかねばならない。&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://serif.hatelabo.jp/28142fc0b6794ceb77aaee46a4e561fd6f01b549/c0f615f8dbec53df134fc3c3d5a01bb2186f65a7"&gt;Abbyの敷居の高さにマジ... - 絶望した - Hatena Serif&lt;/a&gt;も参考のこと。&lt;/p&gt;</description><pubDate>Sat, 11 Aug 2007 11:26:44 +0900</pubDate></item><item><title>俺等はデザイナ？ それともデベロッパ？</title><link>http://www.everes.net/2007/aug/09/are_we_designers_or_developers/</link><description>&lt;p&gt;&lt;small&gt;このエントリは、&lt;a href="http://www.456bereastreet.com/about/"&gt;Roger Johansson&lt;/a&gt;のエントリを私(&lt;a href="http://www.everes.net/about/"&gt;露木&lt;/a&gt;)が乱暴に訳したものです。元エントリには1日経たないうちに100以上のコメントがついています。&lt;br /&gt;
+Django界隈のウェブデザイナに汚染されている私としてはフロントエンドに関わる人が「アクセシビリティ、HTML、CSS、JavaScript、テンプレート化」を行うべきだと思っています。&lt;/small&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;small&gt;しかし、実際のところウェブデザイナという職種にある人がどういうことを行うのか、責任範囲はどこかについて、(フレームワークに興味を持つプログラマとして)非常に気しています。&lt;br /&gt;
+また、&lt;a href="http://d.hatena.ne.jp/amachang/"&gt;id:amachang&lt;/a&gt;による一連の問題提起にも感化されるところが有ってこの記事が気になったのかもしれません。&lt;/small&gt;&lt;/p&gt;&lt;br /&gt;
+&lt;p&gt;--- &lt;a href="http://www.456bereastreet.com/archive/200708/are_we_designers_or_developers/"&gt;Are we designers or developers&lt;/a&gt;の拙い訳 ---&lt;/p&gt;
+
+&lt;p&gt;俺は自分自身のことを「デベロッパ / デザイナ / 臨時ライタ」と書くことが有る。何してる人って誰かに聞かれると答えに困るし、実際混乱している。&lt;br /&gt;
+ウェブデザイナ？ウェブデベロッパ？ウェブプログラマ？どれかなのかどれでもないのか？マジでシンプルに答えられない。&lt;/p&gt;&lt;br /&gt;
+
+&lt;p&gt;答えは誰がいつ何のために聞いてきたか、状況で変わる。Webの仕事っていうことも有るしWebサイト作ってるということもある。嘘じゃないんだけど本当のことは言ってないよね。端的に答えられたら良いのにね。&lt;/p&gt;&lt;br /&gt;
+
+&lt;p&gt;グラフィックデザインに関することは最近してないけど、自分のことをデザイナだと思ってるんだ。よくデザイン＝グラフィックデザインと間違えられるんだけど、デザインてのは物事をうまくいくようにすることもいうんだ。俺がしてるのはそういうことだからきっとデザイナと名乗るべきなんだろうな。&lt;/p&gt;&lt;br /&gt;
+
+
+&lt;p&gt;だけどどうも俺にとってウェブデザイナっていう説明は、ドットコムバブル時代の経験から酷く汚れたものになってしまったんだ。大手のエージェンシーが人が必要ってだけで雇った大量のスキルがない人々を思い出させるんだよね。それからDreamweaverとかGoLiveのクラック版のWYSIWYGモードを使ってサイト構築をしているホビィストも連想しちゃうんだ。だから自分自身をウェブデザイナって呼ぶのにはすごい抵抗があるんだよ。&lt;/p&gt;&lt;br /&gt;
+
+&lt;p&gt;反対にウェブデベロッパって呼び名も使ってきた。問題はウェブデベロッパってのを俺が全然やらないバックエンドプログラミングする人のことだと思う人が多いってこと。ウェブデザイナよりプロっぽく聞こえるのにね。&lt;/p&gt;&lt;br /&gt;
+
+&lt;p&gt;他にはどんなのが有ったっけ？ユーザインターフェースプログラマ、フロントエンドデベロッパ、ユーザエクスペリエンスアーキテクト(ユーザエクスペリエンスっていうフレーズにはアレルギーがあるなぁ)？沢山有るけど、ウェブ業界で働いていない人に俺が何をしているか理解してもらえるようなやつは無い。&lt;/p&gt;&lt;br /&gt;
+
+
+&lt;p&gt;何が問題なんだっけ？たいていの場合は問題ないんだよね。でも、美容師さんとかお隣さんとかに仕事を説明するときにちょっと格好悪いんだよね。ウェブで働いてます、ウェブサイト作ってますってのは仕事っぽいんだけど、グラフィックデザインをしてたりプログラミングしてたりする場合にはそんな風にはいわないよね。&lt;/p&gt;&lt;br /&gt;
+
+&lt;p&gt;グラフィックデザインじゃなくって主にHTML、CSS、JavaScriptとアクセシビリティを仕事にしている人に聞きたいことが二つあるんだ。&lt;/p&gt;&lt;br /&gt;
+
+&lt;p&gt;1.自分のことをデザイナと見なしてる？それともデベロッパ？&lt;/p&gt;
+&lt;p&gt;2.自分のことをデザイナと呼んでる？それともデベロッパ？&lt;/p&gt;&lt;br /&gt;
+
+
+&lt;p&gt;考えが有ったら、気軽に答えてくれよ。&lt;/p&gt;
+</description><pubDate>Fri, 10 Aug 2007 08:27:52 +0900</pubDate></item></channel></rss>

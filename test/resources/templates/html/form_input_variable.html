@@ -1,0 +1,17 @@
+<html>
+<body>
+<form rt:reference="true">
+<input type="text" name="{$var1}" />
+<input type="hidden" name="{$var2}" />
+<input type="checkbox" name="{$var3}" value="hoge" />
+<input type="radio" name="{$var4}" value="gako" />
+<input type="radio" name="abc" value="true" />
+<input type="radio" name="def" value="false" />
+<select name="jkl" rt:param="ghi">
+</select>
+<rt:loop param="ghi" var="v">
+<input type="checkbox" name="jkl" value="{$v}" />
+</rt:loop>
+</form>
+</body>
+</html>

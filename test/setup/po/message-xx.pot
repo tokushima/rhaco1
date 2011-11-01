@@ -1,0 +1,268 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-03-09 03:31+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <team@exsample.com>\n"
+
+#: library/model/table/ArticleTable.php:48
+#: library/model/table/ArticleTagTable.php:38
+#: library/model/table/ArticleTypeTable.php:42
+#: library/model/table/CFrogTable.php:46
+#: library/model/table/DependTestRefferedTable.php:39
+#: library/model/table/DependTestTable.php:36
+#: library/model/table/DioTable.php:38
+#: library/model/table/FactTestRefTable.php:37
+#: library/model/table/FactTestTable.php:41
+#: library/model/table/FrogTable.php:45
+#: library/model/table/GcFrogTable.php:42
+#: library/model/table/GenericTestTable.php:48
+#: library/model/table/GenericTestTypeTable.php:42
+#: library/model/table/ItemTable.php:38
+#: library/model/table/JojoTable.php:38
+#: library/model/table/MapTestTable.php:40
+#: library/model/table/MinmaxTestTable.php:41
+#: library/model/table/NumOnlyTable.php:35
+#: library/model/table/RequireTestTable.php:41
+#: library/model/table/TagTable.php:35
+#: library/model/table/TypeTestTable.php:65
+#: library/model/table/UniqueTestMapTable.php:40
+#: library/model/table/UniqueTestTable.php:37
+
+msgid "id"
+msgstr ""
+
+#: library/model/table/ArticleTable.php:65
+
+msgid "article_type"
+msgstr ""
+
+#: library/model/table/ArticleTable.php:82
+#: library/model/table/GenericTestTable.php:82
+
+msgid "write_date"
+msgstr ""
+
+#: library/model/table/ArticleTable.php:103
+#: library/model/table/GenericTestTable.php:103
+
+msgid "tag_count"
+msgstr ""
+
+#: library/model/table/ArticleTable.php:120
+#: library/model/table/GenericTestTable.php:120
+
+msgid "text_word"
+msgstr ""
+
+#: library/model/table/ArticleTable.php:137
+#: library/model/table/GenericTestTable.php:137
+
+msgid "photo"
+msgstr ""
+
+#: library/model/table/ArticleTagTable.php:55
+
+msgid "article_id"
+msgstr ""
+
+#: library/model/table/ArticleTagTable.php:72
+
+msgid "tag_id"
+msgstr ""
+
+#: library/model/table/ArticleTypeTable.php:60
+#: library/model/table/CFrogTable.php:64
+#: library/model/table/DependTestRefferedTable.php:56
+#: library/model/table/DependTestTable.php:54
+#: library/model/table/DioTable.php:55
+#: library/model/table/FactTestRefTable.php:55
+#: library/model/table/FactTestTable.php:59
+#: library/model/table/FrogTable.php:62
+#: library/model/table/GcFrogTable.php:60
+#: library/model/table/GenericTestTypeTable.php:60
+#: library/model/table/ItemTable.php:55
+#: library/model/table/JojoTable.php:55
+#: library/model/table/RequireTestTable.php:58
+#: library/model/table/TagTable.php:52
+#: library/model/table/UniqueTestTable.php:55
+
+msgid "name"
+msgstr ""
+
+#: library/model/table/ArticleTypeTable.php:77
+#: library/model/table/GenericTestTypeTable.php:77
+
+msgid "description"
+msgstr ""
+
+#: library/model/table/ArticleTypeTable.php:94
+#: library/model/table/GenericTestTypeTable.php:94
+
+msgid "sort_order"
+msgstr ""
+
+#: library/model/table/CFrogTable.php:81
+#: library/model/table/FrogTable.php:79
+#: library/model/table/GcFrogTable.php:77
+
+msgid "color"
+msgstr ""
+
+#: library/model/table/CFrogTable.php:98
+#: library/model/table/FrogTable.php:96
+#: library/model/table/GcFrogTable.php:94
+
+msgid "home"
+msgstr ""
+
+#: library/model/table/CFrogTable.php:115
+
+msgid "gc_frog_id"
+msgstr ""
+
+#: library/model/table/DependTestRefferedTable.php:73
+#: library/model/table/FactTestTable.php:76
+
+msgid "ref_id"
+msgstr ""
+
+#: library/model/table/DioTable.php:72
+#: library/model/table/JojoTable.php:72
+
+msgid "stand"
+msgstr ""
+
+#: library/model/table/FrogTable.php:113
+
+msgid "c_frog_id"
+msgstr ""
+
+#: library/model/table/GenericTestTable.php:65
+
+msgid "generic_test_type"
+msgstr ""
+
+#: library/model/table/ItemTable.php:72
+
+msgid "price"
+msgstr ""
+
+#: library/model/table/MapTestTable.php:57
+
+msgid "fact_test_id"
+msgstr ""
+
+#: library/model/table/MapTestTable.php:74
+
+msgid "fact_test_ext_id"
+msgstr ""
+
+#: library/model/table/MinmaxTestTable.php:58
+
+msgid "val1"
+msgstr ""
+
+#: library/model/table/MinmaxTestTable.php:75
+
+msgid "val2"
+msgstr ""
+
+#: library/model/table/MinmaxTestTable.php:92
+
+msgid "val3"
+msgstr ""
+
+#: library/model/table/NumOnlyTable.php:52
+
+msgid "num"
+msgstr ""
+
+#: library/model/table/RequireTestTable.php:75
+
+msgid "zip"
+msgstr ""
+
+#: library/model/table/RequireTestTable.php:92
+
+msgid "address"
+msgstr ""
+
+#: library/model/table/TypeTestTable.php:82
+
+msgid "boole_value"
+msgstr ""
+
+#: library/model/table/TypeTestTable.php:99
+
+msgid "time_value"
+msgstr ""
+
+#: library/model/table/TypeTestTable.php:116
+
+msgid "timestamp_value"
+msgstr ""
+
+#: library/model/table/TypeTestTable.php:137
+
+msgid "date_value"
+msgstr ""
+
+#: library/model/table/TypeTestTable.php:158
+
+msgid "float_value"
+msgstr ""
+
+#: library/model/table/TypeTestTable.php:175
+
+msgid "integer_value"
+msgstr ""
+
+#: library/model/table/TypeTestTable.php:192
+
+msgid "zip_value"
+msgstr ""
+
+#: library/model/table/TypeTestTable.php:209
+
+msgid "tel_value"
+msgstr ""
+
+#: library/model/table/TypeTestTable.php:226
+
+msgid "email_value"
+msgstr ""
+
+#: library/model/table/TypeTestTable.php:243
+
+msgid "text_value"
+msgstr ""
+
+#: library/model/table/TypeTestTable.php:260
+
+msgid "string_value"
+msgstr ""
+
+#: library/model/table/UniqueTestMapTable.php:57
+
+msgid "user_id"
+msgstr ""
+
+#: library/model/table/UniqueTestMapTable.php:74
+
+msgid "comp_id"
+msgstr ""
+
+#: setup/project.xml:database
+
+msgid "setup.database.model.ColumnModel::_parseType"
+msgstr ""
+

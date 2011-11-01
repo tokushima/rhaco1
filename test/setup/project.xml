@@ -1,0 +1,419 @@
+<project rhacover="1.6.1" version="1.6.1" name="rhaco test">
+	<description>rhacoのテスト</description>
+
+	<define name="EX_TESTS_DIR">{$rhaco.rhacopath()}</define>
+
+	<database name="test">
+		<table name="article_type">
+			<description>アーティクルタイプ</description>
+			<column name="id" type="serial" />
+			<column name="name" type="string" size="10" />
+			<column name="description" type="text" size="1000" />
+			<column name="sort_order" type="integer" size="1" />
+
+		<default>
+			<data>
+				<column name="id" value="1" />
+				<column name="name" value="rhaco" />
+				<column name="description" value="ラコについての説明" />
+				<column name="sort_order" value="1" />
+			</data>
+			<data>
+				<column name="id" value="2" />
+				<column name="name" value="php" />
+				<column name="description" value="ぴーえっちぴー勉強会への参加備忘録" />
+				<column name="sort_order" value="3" />
+			</data>
+			<data>
+				<column name="id" value="3" />
+				<column name="name" value="apache" />
+				<column name="description" value="あぱっちプロジェクトに関する話題" />
+				<column name="sort_order" value="2" />
+			</data>
+		</default>
+		</table>
+		<table name="article">
+			<column name="id" type="serial" />
+			<column name="article_type" type="integer" require="true"
+				reference="article_type.id">
+				文書区分
+			</column>
+			<column name="write_date" type="timestamp">投稿日</column>
+			<column name="tag_count" type="integer" size="2">
+				タグ数
+			</column>
+			<column name="text_word" var="body" type="text"
+				size="1000">
+				文章
+			</column>
+			<column name="photo" type="string" size="255">写真</column>
+		</table>
+		<table name="tag">
+			<column name="id" type="serial" />
+			<column name="name" type="string" size="100"
+				unique="true">
+				タグ名
+			</column>
+		</table>
+		<table name="article_tag">
+			<column name="id" type="serial" />
+			<column type="integer" require="true"
+				uniquewith="tag_id" reference="article.id" />
+			<column type="integer" require="true"
+				uniquewith="article_id" reference="tag.id" />
+			<extra name="category" type="string" />
+		</table>
+		<table name="item">
+			<column name="id" type="serial" />
+			<column name="name" type="string" require="true"
+				unique="true" />
+			<column name="price" type="float(10,2)" default="0" />
+		</table>
+		<table name="frog">
+			<column name="id" type="serial" />
+			<column name="name" type="string" require="true"
+				unique="true" />
+			<column name="color" type="string" require="true" />
+			<column name="home" type="string" />
+			<column name="c_frog_id" type="integer" require="true"
+				reference="c_frog.id" />
+		</table>
+		<table name="c_frog">
+			<column name="id" type="serial" />
+			<column name="name" type="string" require="true"
+				unique="true" />
+			<column name="color" type="string" require="true" />
+			<column name="home" type="string" />
+			<column name="gc_frog_id" type="integer" require="true"
+				reference="gc_frog.id" />
+		</table>
+		<table name="gc_frog">
+			<column name="id" type="serial" />
+			<column name="name" type="string" require="true"
+				unique="true" />
+			<column name="color" type="string" require="true" />
+			<column name="home" type="string" />
+		</table>
+		<table name="jojo">
+			<column name="id" type="serial" />
+			<column name="name" type="string" require="true"
+				unique="true" />
+			<column name="stand" type="string" />
+		</table>
+		<table name="dio">
+			<column name="id" type="serial" />
+			<column name="name" type="string" require="true"
+				unique="true" />
+			<column name="stand" type="string" />
+		</table>
+
+		<table name="fact_test">
+			<column name="id" />
+			<column name="name" />
+			<column name="ref_id" reference="fact_test_ref.id" />
+			
+			<default>
+				<data>
+					<column name="id">1</column>
+					<column name="name">aaa</column>
+					<column name="ref_id">2</column>
+				</data>
+				<data>
+					<column name="id">2</column>
+					<column name="name">bbb</column>
+					<column name="ref_id">3</column>
+				</data>
+				<data>
+					<column name="id">3</column>
+					<column name="name">ccc</column>
+					<column name="ref_id">1</column>
+				</data>
+	
+			</default>
+		</table>
+		<table name="fact_test_ref">
+			<column name="id" />
+			<column name="name" var="refName" />
+
+			<default>
+				<data>
+					<column name="id">1</column>
+					<column name="name">1111</column>
+				</data>
+				<data>
+					<column name="id">2</column>
+					<column name="name">2222</column>
+				</data>
+				<data>
+					<column name="id">3</column>
+					<column name="name">3333</column>
+				</data>
+			</default>			
+		</table>
+
+		<ext table="fact_test" class="fact_test_ext">
+		</ext>
+
+		<map name="map_test">
+			<column name="id" />
+			<column name="fact_test_id" reference="fact_test.id" />
+			<column name="fact_test_ext_id"
+				reference="fact_test_ext.id" />
+				
+			<default>
+				<data>
+					<column name="id">1</column>
+					<column name="fact_test_id">1</column>
+					<column name="fact_test_ext_id">2</column>
+				</data>
+			</default>
+		</map>
+
+
+		<table name="generic_test_type">
+			<column name="id" type="serial" />
+			<column name="name" type="string" size="10" />
+			<column name="description" type="text" size="1000" />
+			<column name="sort_order" type="integer" size="1" />
+
+			<default>
+				<data>
+					<column name="id" value="1" />
+					<column name="name" value="rhaco" />
+					<column name="description" value="ラコについての説明" />
+					<column name="sort_order" value="1" />
+				</data>
+				<data>
+					<column name="id" value="2" />
+					<column name="name" value="php" />
+					<column name="description" value="ぴーえっちぴー勉強会への参加備忘録" />
+					<column name="sort_order" value="3" />
+				</data>
+				<data>
+					<column name="id" value="3" />
+					<column name="name" value="apache" />
+					<column name="description" value="あぱっちプロジェクトに関する話題" />
+					<column name="sort_order" value="2" />
+				</data>
+			</default>
+		</table>
+
+		<table name="generic_test">
+			<column name="id" type="serial" />
+			<column name="generic_test_type" type="integer"
+				require="true" reference="generic_test_type.id">
+				文書区分
+			</column>
+			<column name="write_date" type="timestamp">投稿日</column>
+			<column name="tag_count" type="integer" size="2">
+				タグ数
+			</column>
+			<column name="text_word" var="body" type="text"
+				size="1000">
+				文章
+			</column>
+			<column name="photo" type="string" size="255">写真</column>
+
+			<default>
+				<data>
+					<column name="id" value="1" />
+					<column name="generic_test_type" value="2" />
+					<column name="tag_count" value="1" />
+					<column name="text_word"
+						value="ラコは変態の変態によるDjangoのための宣伝フレームワークです" />
+				</data>
+				<data>
+					<column name="id" value="2" />
+					<column name="generic_test_type" value="3" />
+					<column name="tag_count" value="1" />
+					<column name="text_word"
+						value="ぴーえっちぴー勉強会は焼肉が基本らしい。オラは寿司が好き。" />
+				</data>
+				<data>
+					<column name="id" value="3" />
+					<column name="generic_test_type" value="1" />
+					<column name="tag_count" value="2" />
+					<column name="text_word"
+						value="あぱっちプロジェクトには頑張って欲しいとなんか上から目線。" />
+				</data>
+			</default>
+		</table>
+
+		<map name="unique_test_map">
+			<column name="id" type="serial" />
+			<column name="user_id" var="user" type="int"
+				reference="unique_test.id" uniquewith="comp" />
+			<column name="comp_id" var="comp" type="int"
+				reference="unique_test_ext.id" uniquewith="user" />
+		</map>
+		<table name="unique_test">
+			<column name="id" type="serial" />
+			<column name="name" type="string" size="20" />
+			
+			<default>
+				<data>
+					<column var="id">1</column>
+					<column var="name">rhaco</column>
+				</data>
+				<data>
+					<column var="id">2</column>
+					<column var="name">ethna</column>
+				</data>
+				<data>
+					<column var="id">3</column>
+					<column var="name">maple</column>
+				</data>
+				<data>
+					<column var="id">4</column>
+					<column var="name">cake</column>
+				</data>
+				<data>
+					<column var="id">5</column>
+					<column var="name">symfony</column>
+				</data>
+				<data>
+					<column var="id">6</column>
+					<column var="name">zf</column>
+				</data>
+				<data>
+					<column var="id">7</column>
+					<column var="name">sotarok</column>
+				</data>
+			</default>
+		</table>
+		<ext table="unique_test" class="unique_test_ext" />
+
+		<table name="require_test">
+			<column name="id" />
+			<column name="name" require="true" />
+			<column name="zip" type="zip" />
+			<column name="address" type="text" requirewith="zip" />
+		</table>
+
+		<table name="num_only">
+			<column name="id" />
+			<column name="num" type="integer" require="true" />
+
+			<default>
+				<data>
+					<column name="id">1</column>
+					<column name="num">1</column>
+				</data>
+				<data>
+					<column name="id">2</column>
+					<column name="num">2</column>
+				</data>
+			</default>
+		</table>
+
+		<table name="minmax_test">
+			<column name="id" />
+			<column name="val1" type="integer" min="0" max="10" />
+			<column name="val2" type="integer" min="-10" max="0" />
+			<column name="val3" type="string" min="0" max="10" />
+		</table>
+
+		<table name="type_test">
+			<description>
+				setup.database.model.ColumnModel::_parseType
+			</description>
+			<column name="id" type="serial" />
+			<column name="boole_value" type="boolean" />
+			<column name="time_value" type="time" />
+			<column name="timestamp_value" type="timestamp" />
+			<column name="date_value" type="date" />
+			<column name="float_value" type="float" />
+			<column name="integer_value" type="integer" />
+			<column name="zip_value" type="zip" />
+			<column name="tel_value" type="tel" />
+			<column name="email_value" type="email" />
+			<column name="text_value" type="text" />
+			<column name="string_value" type="string" />
+		</table>
+
+		<table name="depend_test">
+			<column name="id" />
+			<column name="name" />
+			
+			<default>
+				<data>
+					<column name="id">1</column>
+					<column name="name">aaa</column>
+				</data>
+				<data>
+					<column name="id">2</column>
+					<column name="name">bbb</column>
+				</data>
+				<data>
+					<column name="id">3</column>
+					<column name="name">ccc</column>
+				</data>
+			</default>
+		</table>
+
+		<table name="depend_test_reffered">
+			<column name="id" />
+			<column name="name" />
+			<column name="ref_id" reference="depend_test.id" />
+			
+			<default>
+				<data>
+					<column name="id">1</column>
+					<column name="name">1111</column>
+					<column name="ref_id">2</column>
+				</data>
+	
+				<data>
+					<column name="id">2</column>
+					<column name="name">2222</column>
+					<column name="ref_id">2</column>
+				</data>
+				<data>
+					<column name="id">3</column>
+					<column name="name">3333</column>
+					<column name="ref_id">1</column>
+				</data>
+			</default>
+		</table>
+
+		<ext table="depend_test" class="depend_test_ext" />
+
+		<table name="birthday_test">
+			<column name="id" />
+			<column name="name" />
+			<column name="birthday" type="birthday" />
+		</table>
+
+		<table name="choice_test">
+			<column name="id" />
+			<column name="choice_type" type="integer">
+				<choices>
+					<data caption="タイプ1">1</data>
+					<data caption="タイプ2">2</data>
+					<data caption="タイプ3">3</data>					
+				</choices>
+			</column>
+			<column name="choice_bool_type" type="boolean">
+				<choices>
+					<data caption="真">true</data>
+					<data caption="偽">false</data>
+				</choices>
+			</column>
+			<extra name="exta_choice_bool_type" type="boolean">
+				<choices>
+					<data caption="真">true</data>
+					<data caption="偽">false</data>
+				</choices>
+			</extra>
+		</table>
+		
+		<table name="ext_extra_base_test">
+			<column name="id" />
+			<column name="value1" label="ばりゅー" />
+			<extra name="extra_value" default="extra_value" label="えきすとら" />
+		</table>
+		<ext table="ext_extra_base_test" name="ext_extra_test">
+			<extra name="extra1" default="extra1" label="エキストラ１" />
+		</ext>
+	</database>
+</project>
