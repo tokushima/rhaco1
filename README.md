@@ -1,9 +1,11 @@
 rhaco1
 ======
+#使い方
 <http://gihyo.jp/dev/serial/01/rhaco>
 
 
-#Conveyor(Prhagger)を使用する
+
+#Conveyor(Prhagger)
 
 ##インストール
 		Conveyorを<https://github.com/tokushima/rhaco1/blob/master/repository/app/org.rhaco.conveyor.tgz>からダウンロード、解凍します。
@@ -31,4 +33,4 @@ rhaco1
 		setup.phpの[settings]アプリケーションデータの設定 &gt; 実行ファイルの出力場所 で指定されたパスに<br />
 		LineフォームのNameで指定した名前 + .phpのファイル名でLineファイルが出力されています。<br />
 
-		~/publish/feed.php
+		> ~/publish/feed.php
