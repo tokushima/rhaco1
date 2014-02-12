@@ -19,7 +19,7 @@ class Rhaco{
 	 */
 	function rhacoversion(){
 		/*** #pass */
-		return "1.6.1";
+		return "1.6.2";
 	}
 	/**
 	 * アプリケーションのバージョンを取得

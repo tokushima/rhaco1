@@ -203,18 +203,5 @@ class SetupView extends Flow{
 		$this->setVariable("isdata",!empty($results));
 		return $this->parser(SetupUtil::template("setup/database/sql.html"));
 	}
-	function install(){
-		$message = null;
-		
-		if($this->isPost()){
-			if($this->isVariable("arbo_package")){
-				$package = $this->getVariable("arbo_package");
-				$message = $package." not found";
-				if(Repository::download($package,Rhaco::lib())) $message = "installed ".$package;
-			}
-		}
-		$this->setVariable("message",$message);
-		return $this->parser();
-	}
 }
 ?>

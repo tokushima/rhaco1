@@ -214,8 +214,7 @@ class Variable{
 			return intval($json);
 		}
 		$json = preg_replace("/[\s]*([,\:\{\}\[\]])[\s]*/","\\1",
-						preg_replace("/[\"].*?[\"]/esm",'str_replace(array(",",":","{","}","[","]"),array("#B#","#C#","#D#","#E#","#F#","#G#"),"\\0")',
-							str_replace("\\\"","#A#",trim($json))));
+						preg_replace_callback("/[\"].*?[\"]/sm",create_function('$m','return str_replace(array(",",":","{","}","[","]"),array("#B#","#C#","#D#","#E#","#F#","#G#"),$m[0]);'),str_replace("\\\"","#A#",trim($json))));
 		if(preg_match("/^\"([^\"]*?)\"$/",$json)){
 			return str_replace(array("#A#","#B#","#C#","#D#","#E#","#F#","#G#"),array("\\\"",",",":","{","}","[","]"),substr($json,1,-1));
 		}

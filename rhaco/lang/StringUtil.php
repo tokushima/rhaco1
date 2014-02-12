@@ -148,6 +148,7 @@ class StringUtil{
 	 * @param string $preg
 	 * @param string $replace
 	 * @param string $option imsxADSUX
+	 * @param boolran $eval deprecated
 	 * @return string
 	 */
 	function replace($src,$preg,$replace="",$option="",$eval=false){
@@ -155,8 +156,7 @@ class StringUtil{
 			eq("123１２３xyzxyzｱｲｳｴｵ",StringUtil::replace("123１２３abcａｂｃｱｲｳｴｵ","abcａｂｃ","xyzxyz"));
 			eq("123１２３abcａｂｃｱｲｳｴｵ",StringUtil::replace("123１２３abcａｂｃｱｲｳｴｵ","abcabc","xyzxyz"));		
 		*/
-		if(!empty($preg)){
-			if($eval) $option .= "e";
+		if(!empty($preg)){ 
 			if(substr($preg,0,1) == "/"){
 				if(extension_loaded("mbstring") && !$eval){
 					if(strpos($option,"i") === false){
@@ -164,8 +164,16 @@ class StringUtil{
 					}
 					return mb_eregi_replace(substr($preg,1,-1),$replace,$src);
 				}
-				$src = preg_replace(sprintf("%s%s",$preg,$option."u"),$replace,StringUtil::encode($src,StringUtil::UTF8()));
-				if(strpos($option,"e") !== false) $src = str_replace(array("\\\"","\\'","\\\\"),array("\"","\'","\\"),$src);
+				if($eval){
+					$src = preg_replace_callback(
+								sprintf("%s%s",$preg,$option."u"),
+								create_function('$m','return '.preg_replace("/'\\\\(\d+)'/",'$m[\\1]',$replace).';'),
+								StringUtil::encode($src,StringUtil::UTF8())
+					);
+					$src = str_replace(array("\\\"","\\'","\\\\"),array("\"","\'","\\"),$src);
+				}else{
+					$src = preg_replace(sprintf("%s%s",$preg,$option."u"),$replace,StringUtil::encode($src,StringUtil::UTF8()));
+				}
 				return $src;
 			}
 			return str_replace($preg,$replace,$src);

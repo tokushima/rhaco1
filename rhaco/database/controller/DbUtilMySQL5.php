@@ -127,7 +127,7 @@ class DbUtilMySQL5 extends DbUtilBase{
 	}
 	function _escape($value){
 		if(extension_loaded("mysql")){
-			return mysql_escape_string($value);
+			return mysql_real_escape_string($value);
 		}
 		return addslashes($value);
 	}

@@ -349,8 +349,8 @@ class ArrayUtil{
 		 */
 		$result = array();
 		$head = array();
-		$src = preg_replace("/\".+?\"/se",
-						'str_replace(array(",","\n"),array("RHACO__COMMA","RHACO__ENTER"),"\\0")',
+		$src = preg_replace_callback("/\".+?\"/s",
+						create_function('$m','return str_replace(array(",","\n"),array("RHACO__COMMA","RHACO__ENTER"),$m[0]);'),
 						str_replace(array("\"\"","\"\"","\\","\$"),array("RHACO__DOUBLE","RHACO__ESCAPE","RHACO__DOLLAR"),trim(StringUtil::toULD($src)))
 				);
 		if($isheader){

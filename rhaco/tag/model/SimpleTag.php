@@ -989,7 +989,12 @@ class SimpleTag{
 		return false;
 	}
 	function _normalizationParameter($src){
-		return StringUtil::replace(str_replace(array("\\\'","\\\""),array("__QUOTE__","__DQUOTE__"),$src),"/([\"\']).*?[<>].*?\\1/","str_replace(array('<','>'),array('__TAGSTART__','__TAGEND__'),'\\0')","",true);
+		return StringUtil::replace(
+				str_replace(array("\\\'","\\\""),array("__QUOTE__","__DQUOTE__"),$src),
+				"/([\"\']).*?[<>].*?\\1/","str_replace(array('<','>'),array('__TAGSTART__','__TAGEND__'),'\\0')",
+				"",
+				true
+		);
 	}
 	function _normalizationUnescape($src){
 		return ($this->normalization) ? str_replace(array("__QUOTE__","__DQUOTE__","__TAGEND__","__TAGSTART__"),array("\\\'","\\\"",">","<"),$src) : $src;

@@ -98,11 +98,6 @@ class SetupGenerator{
 
 								"^settings/generate"=>array("class"=>"setup.util.SetupView","method"=>"generate","args"=>$projectModel,"default"=>true),
 								"^settings/member"=>array("class"=>"setup.util.SetupView","method"=>"member","args"=>Rhaco::resource("member_xml.php")),
-								"^settings/install"=>array(
-													"template"=>SetupUtil::template("setup/install.html"),
-													"class"=>"setup.util.SetupView",
-													"method"=>"install"
-													),
 								"^i18n/message"=>array("class"=>"setup.util.SetupView","method"=>"intltool"),
 								"^test"=>array("class"=>"setup.util.SetupView","method"=>"test"),
 								"^document/api"=>array("class"=>"setup.util.SetupView","method"=>"doc","args"=>Rhaco::path()),
@@ -158,7 +153,6 @@ class SetupGenerator{
 				default:
 					$submenu = array("generate"=>"settings/generate",
 									"member"=>"settings/member",
-									"install"=>"settings/install",
 					);
 			}
 			if(RequestLogin::isLoginSession()) $generalmenu["logout"] = "logout";

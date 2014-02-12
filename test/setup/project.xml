@@ -1,4 +1,4 @@
-<project rhacover="1.6.1" version="1.6.1" name="rhaco test">
+<project rhacover="1.6.2" version="1.6.2" name="rhaco test">
 	<description>rhacoのテスト</description>
 
 	<define name="EX_TESTS_DIR">{$rhaco.rhacopath()}</define>
